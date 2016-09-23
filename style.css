@@ -161,16 +161,17 @@ body {
 }
 
 .navbar-default {
+    color: #FFF;
     font-size: 24px;
-    border-width: 6px;
-    border-radius: 50px;
+    /*border-width: 6px;*/
+    /*border-radius: 50px;*/
 }
-
 
 #navigbar {
   background-color: rgba(248, 248, 248, 0.5);
   border-color: rgba(231, 231, 231, 0.5);
   transition: background-color 0.5s, border-color 0.5s;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.19);
 }
 
 #navigbar:hover {
